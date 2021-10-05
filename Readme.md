@@ -1,4 +1,4 @@
-##News Aggregator
+## News Aggregator
 
 The service provides a RESTful API for getting news from different news providers:
 * NY times
@@ -7,16 +7,16 @@ The service provides a RESTful API for getting news from different news provider
 The app uses JWT authentication with RSA encryption. 
 
 
-###Stack:
+### Stack:
 * Framework: AIOHttp
 * ORM: Pewee Async
 
 
-###Running the app
+### Running the app
 ### Running the tests
 
 
-###API Description
+### API Description
 
 * `GET /news` returns news from all providers.
 * `GET /news/ny-times` returns news from NY Times.
